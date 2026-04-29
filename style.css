@@ -1,0 +1,17 @@
+/*
+Theme Name: Luminary Collective
+Theme URI: https://luminarycollective.com
+Author: Luminary Collective
+Author URI: https://luminarycollective.com
+Description: Editorial luxury theme for a women's leadership community. Light Spring palette (cream, peach, coral, honey gold), numbered section architecture, UA/PL language switcher, dynamic blog with category filtering.
+Version: 1.1.0
+Requires at least: 6.0
+Tested up to: 6.4
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: luminary
+Tags: editorial, luxury, women-leadership, minimal, bilingual, custom-colors, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+*/
+
+/* Actual styling lives in /assets/css/main.css, enqueued via functions.php */

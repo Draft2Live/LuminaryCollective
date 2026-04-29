@@ -1,0 +1,73 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Luminary Collective Theme\n"
+"POT-Creation-Date: 2026-04-26 10:00+0000\n"
+"PO-Revision-Date: 2026-04-26 10:00+0000\n"
+"Language: pl_PL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+msgid "Archive"
+msgstr "Archiwum"
+
+msgid "Journal"
+msgstr "Journal"
+
+msgid "Page"
+msgstr "Strona"
+
+msgid "Search"
+msgstr "Szukaj"
+
+msgid "Автор"
+msgstr "Autor"
+
+msgid "Журнал"
+msgstr "Journal"
+
+msgid "Категорія"
+msgstr "Kategoria"
+
+msgid "Нічого не знайдено."
+msgstr "Nic nie znaleziono."
+
+msgid "Опубліковано"
+msgstr "Opublikowano"
+
+msgid "Перша публікація зʼявиться тут. Опублікуйте запис у WP admin → Записи."
+msgstr "Pierwsza publikacja pojawi się tutaj. Opublikuj wpis w WP admin → Wpisy."
+
+msgid "Поки жодного запису в журналі. Опублікуйте перший у Posts → Add New."
+msgstr "Na razie żadnego wpisu w journalu. Opublikuj pierwszy w Posts → Add New."
+
+msgid "Поки жодної статті."
+msgstr "Na razie żadnych artykułów."
+
+msgid "Поки нічого не знайдено."
+msgstr "Na razie nic nie znaleziono."
+
+msgid "Результати пошуку"
+msgstr "Wyniki wyszukiwania"
+
+msgid "Спробуйте інший запит або перейдіть до журналу."
+msgstr "Spróbuj innego zapytania lub przejdź do journala."
+
+msgid "Тег"
+msgstr "Tag"
+
+msgid "Теги"
+msgstr "Tagi"
+
+msgid "Усі"
+msgstr "Wszystkie"
+
+msgid "хв"
+msgstr "min"
+
+msgid "← Новіші"
+msgstr "← Nowsze"
+
+msgid "Старіші →"
+msgstr "Starsze →"
