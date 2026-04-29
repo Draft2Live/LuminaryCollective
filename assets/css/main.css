@@ -2140,3 +2140,29 @@
       font-size: 28px;
     }
   }
+
+  /* ============================================
+     ===== STICKY NAV (scroll > 100px → 40% bg) =====
+     ============================================ */
+  nav.top-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition:
+      background 0.35s ease,
+      backdrop-filter 0.35s ease,
+      padding 0.35s ease,
+      box-shadow 0.35s ease;
+    will-change: background, backdrop-filter, padding;
+  }
+  nav.top-nav.scrolled {
+    padding: 14px 56px;
+    background: rgba(247, 239, 225, 0.4);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    box-shadow: 0 1px 0 rgba(74, 47, 31, 0.06);
+  }
+  @media (max-width: 720px) {
+    nav.top-nav.scrolled { padding: 12px 20px; }
+  }

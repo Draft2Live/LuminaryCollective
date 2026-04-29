@@ -67,6 +67,30 @@
     setupReveal();
   }
 
+  // ============= STICKY NAV (scroll > 100px) =============
+  const setupStickyNav = () => {
+    const nav = document.querySelector('nav.top-nav');
+    if (!nav) return;
+    const THRESHOLD = 100;
+    let ticking = false;
+    const update = () => {
+      nav.classList.toggle('scrolled', window.scrollY > THRESHOLD);
+      ticking = false;
+    };
+    window.addEventListener('scroll', () => {
+      if (!ticking) {
+        requestAnimationFrame(update);
+        ticking = true;
+      }
+    }, { passive: true });
+    update();
+  };
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setupStickyNav);
+  } else {
+    setupStickyNav();
+  }
+
   // ============= BLOG FILTER CHIPS =============
   document.querySelectorAll('.chip').forEach(chip => {
     chip.addEventListener('click', () => {
